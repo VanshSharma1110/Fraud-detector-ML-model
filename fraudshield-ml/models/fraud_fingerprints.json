@@ -1,0 +1,32 @@
+{
+    "velocity_attack": {
+        "velocity": 0.95,
+        "device_risk": 0.4,
+        "time_risk": 0.3,
+        "amount_risk": 0.5,
+        "recipient": 0.3,
+        "network": 0.2,
+        "identity": 0.2,
+        "location": 0.1
+    },
+    "sim_swap": {
+        "velocity": 0.2,
+        "device_risk": 0.95,
+        "time_risk": 0.85,
+        "amount_risk": 0.8,
+        "recipient": 0.5,
+        "network": 0.3,
+        "identity": 0.7,
+        "location": 0.2
+    },
+    "social_engineering": {
+        "velocity": 0.1,
+        "device_risk": 0.3,
+        "time_risk": 0.7,
+        "amount_risk": 0.6,
+        "recipient": 0.9,
+        "network": 0.2,
+        "identity": 0.3,
+        "location": 0.2
+    }
+}

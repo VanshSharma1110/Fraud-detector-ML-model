@@ -1,0 +1,69 @@
+{
+  "health": {
+    "status": "ok",
+    "api_latency_ms": 710.9,
+    "ml_inference_ms": 710.9,
+    "tps": 1204,
+    "false_positive_rate": 2.1,
+    "uptime_seconds": 301.12,
+    "model_loaded": true,
+    "cache_size": 1,
+    "timestamp": "2026-03-14T03:26:37Z"
+  },
+  "score": {
+    "score": 0.0,
+    "raw_proba": 0.0004,
+    "is_fraud": false,
+    "risk_level": "LOW",
+    "fraud_type": null,
+    "model_breakdown": {
+      "xgb": 0.6159,
+      "lgb": 0.0014,
+      "cat": 0.407
+    },
+    "lime": [
+      {
+        "feature": "velocity_x_new_device > 0.00",
+        "weight": 0.0079,
+        "direction": "RISK"
+      },
+      {
+        "feature": "velocity_log > 1.83",
+        "weight": 0.0066,
+        "direction": "RISK"
+      }
+    ],
+    "shap_8d": {
+      "velocity": -0.1438,
+      "device_risk": 0.0,
+      "time_risk": 0.0,
+      "amount_risk": -0.0,
+      "recipient": -0.0,
+      "network": -0.0305,
+      "identity": -0.105,
+      "location": -0.1072
+    },
+    "inference_ms": 860.2,
+    "rules_applied": {
+      "velocity": {
+        "card_testing_limit": 5,
+        "smurfing_limit": 10,
+        "time_window": 60
+      }
+    }
+  },
+  "forecast": [
+    {
+      "ds": "2024-01-03",
+      "yhat": -3492.5208029011565,
+      "yhat_lower": -3492.520805061006,
+      "yhat_upper": -3492.520800653295
+    },
+    {
+      "ds": "2024-01-04",
+      "yhat": -3632.496645161226,
+      "yhat_lower": -3632.4966521547026,
+      "yhat_upper": -3632.4966384268696
+    }
+  ]
+}

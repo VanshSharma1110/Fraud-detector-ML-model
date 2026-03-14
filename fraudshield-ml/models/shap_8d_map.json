@@ -1,0 +1,49 @@
+{
+    "velocity": [
+        "velocity_60s",
+        "velocity_48h_count",
+        "velocity_log",
+        "amount_x_velocity",
+        "velocity_x_new_device"
+    ],
+    "device_risk": [
+        "is_new_device",
+        "new_device_x_night",
+        "is_sim_swap_signal"
+    ],
+    "time_risk": [
+        "hour",
+        "time_scaled",
+        "new_device_x_night"
+    ],
+    "amount_risk": [
+        "amount_scaled",
+        "amount_log",
+        "new_recip_x_amount",
+        "young_account_x_large"
+    ],
+    "recipient": [
+        "is_new_recipient",
+        "is_first_merchant",
+        "new_recip_x_amount"
+    ],
+    "network": [
+        "v_fraud_signal",
+        "V4",
+        "V11",
+        "V14",
+        "v_mean",
+        "v_std"
+    ],
+    "identity": [
+        "account_age_days",
+        "is_sim_swap_signal",
+        "young_account_x_large",
+        "city_risk_score"
+    ],
+    "location": [
+        "city_risk_score",
+        "is_festival_day",
+        "festival_x_amount"
+    ]
+}
